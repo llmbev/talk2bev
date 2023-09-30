@@ -65,7 +65,7 @@
           More Research
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://conceptfusion.github.io">
+          <a class="navbar-item" href="https://concept-fusion.github.io">
             ConceptFusion
           </a>
           <a class="navbar-item" href="https://vikr-182.github.io/UAP-BEV/">
@@ -116,14 +116,14 @@
             </span>                        
           </div>
 
-          <div class="is-size-6 publication-authors">
-            <span class="author-block"><sup>1</sup>IIIT Hyderabad</span>
-            <span class="author-block"><sup>2</sup>University of British Columbia</span>
+          <div class="is-size-6">
+            <span class="author-block"><sup>1</sup> <a class="text-black" href="https://robotics.iiit.ac.in">IIIT Hyderabad</a></span>
+            <span class="author-block"><sup>2</sup> <a class="text-black" href="https://www.ubc.ca/">University of British Columbia</a></span>
           </div>
-          <div class="is-size-6 publication-authors">
-            <span class="author-block"><sup>3</sup>University of Tartu</span>
-            <span class="author-block"><sup>4</sup>TensorTour Inc</span>
-            <span class="author-block"><sup>5</sup>MIT</span>
+          <div class="is-size-6">
+            <span class="author-block"><sup>3</sup> <a class="text-black" href="https://ut.ee/en">University of Tartu</a></span>
+            <span class="author-block"><sup>4</sup> <a class="text-black" href="https://tensortour.com/">TensorTour Inc</a></span>
+            <span class="author-block"><sup>5</sup> <a class="text-black" href="https://www.csail.mit.edu/">MIT</a></span>
           </div>
 
           <div class="column has-text-centered">
@@ -184,7 +184,9 @@
       </div>
     </div>
     <div  class="container is-max-desktop">
-      <img src="./static/images/talk2bev_teaser-1.png" class="interpolation-image" alt="Interpolate start reference image."/>
+      <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
+        <source src="./static/videos/teaser_presentation_compressed.mp4" type="video/mp4">
+      </video>
       <div class="is-size-7">
         We build <i>Language-enhanced Bird's-Eye View (BEV) maps</i> using (a) BEV representations constructed from vehicle sensors (multi-view images, lidar), and (b) Aligned vision-language features for each object which can be directly used as context within large vision-language models (LVLMs) to query and <i>talk</i> to the objects in the scene. These maps embed knowledge about object semantics, material properties, affordances, and spatial concepts and can be queried for visual reasoning, spatial understanding, and making decisions about potential future scenarios, critical for autonomous driving application.
       </h2>
@@ -194,7 +196,7 @@
 
 <section class="hero is-light is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
       <div id="results-carousel" class="">
         <div class="item">
           <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">

@@ -78,6 +78,17 @@ body {
     text-decoration: underline;
 }
 
+.text-black {
+  color: black;
+}
+
+
+.text-black:hover {
+  color: magenta;
+  /* text-decoration: underline;  */
+}
+
+
 .author-block {
   display: inline-block;
 }
