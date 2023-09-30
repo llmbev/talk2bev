@@ -13,7 +13,7 @@ body {
     margin-bottom: 5px;
 }
 
-.dnerf {
+.coolname {
   font-variant: small-caps;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+   color: #4A1FB4 !important;
 }
 
 .publication-authors a:hover {
@@ -154,4 +154,21 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.interpolation-image-wrapper-uncoco img {
+  margin-top: 50px ;
+  margin-bottom: 80px;
+}
+.interpolation-image-wrapper-tabletop img {
+  margin-top: 70px ;
+  margin-bottom: 100px;
+}
+.interpolation-image-wrapper-fine-grained img {
+  /* margin-top: 50px ; */
+  margin-bottom: 20px;
+}
+.interpolation-image-wrapper-zero-shot img {
+  margin-top: 25px ;
+  /* margin-bottom: 100px; */
 }
