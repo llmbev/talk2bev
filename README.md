@@ -1,14 +1,14 @@
-# Nerfies
+# Talk2BEV
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for [Talk2BEV](https://llmbev.github.io/talk2bev).
 
-If you find Nerfies useful for your work please cite:
+If you find Talk2BEV useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{talk2bev
+    title = {Talk2BEV: Language-enhanced Bird’s-eye View Maps for Autonomous Driving},
+    author = {Dewangan, Vikrant and Choudhary, Tushar and Chandhok, Shivam and Priyadarshan, Shubham and Jain,Anushka and Singh, Arun and Srivastava, Siddharth and Jatavallabhula, {Krishna Murthy} and Krishna, Madhava},
+    year = {2023},
+    booktitle = {arXiv},
 }
 ```
 
