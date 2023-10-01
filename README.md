@@ -1,4 +1,22 @@
 # Talk2BEV
+
+[**Project Page**](https://llmbev.github.io/talk2bev/) |
+[**Paper**](https://llmbev.github.io/talk2bev/docs/assets/pdf/talk2bev.pdf) |
+[**ArXiv**]() |
+[**Video**](https://www.youtube.com/watch?v=TMht-8SGJ0I)
+
+[Vikrant Dewangan](https://vikr-182.github.io/)\*,
+[Tushar Choudhary](https://tusharc31.github.io/)\*,
+[Shivam Chandhok](https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en)\*,
+[Shubham Priyadarshan](https://rudeninja.github.io/),
+[Anushka Jain](https://anushkaj1.github.io),
+[Arun K. Singh](https://scholar.google.co.in/citations?user=0zgDoIEAAAAJ&hl=en),
+[Siddharth Srivastava](https://siddharthsrivastava.github.io/),
+[Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\*,
+[K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en),
+
+![Splash Figure](./docs/static/images/talk2bev_teaser-1.png)
+
 Code for:
 
 1. Click2Chat interface
