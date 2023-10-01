@@ -27,7 +27,7 @@ We extensively evaluate Talk2BEV on a large number of scene understanding tasks 
 
 ## Data Preparation
 
-Please download the NuScenes v1.0-trainval dataset. Our dataset consists of 2 parts - Talk2BEV-Base and Talk2BEV-Captions, consisting of base folders and captions respectively. 
+Please download the [NuScenes v1.0-trainval](https://www.nuscenes.org/download) dataset. Our dataset consists of 2 parts - Talk2BEV-Base and Talk2BEV-Captions, consisting of base (crops, perspective images, bev area centroids) and crop captions respectively.
 
 ### Download links
 
@@ -74,6 +74,7 @@ We also allow free-form conversation with the BEV. Please follow the instruction
 ## TODO
 
 ```
+[ ] Add links to BEV crops, captions
 [ ] Spatial operators evaluation pipeline
 [ ] Release Talk2BEV-Bench
 ```

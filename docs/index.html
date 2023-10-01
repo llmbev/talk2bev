@@ -77,14 +77,14 @@
 
   </div>
 </nav>
-
+<!-- https://youtu.be/vYzrRQq-K6Q -->
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-3 publication-title">Talk2BEV: Language-Enhanced Bird's Eye View (BEV) Maps</h1>
-          <h2 class="title is-6 publlication-title">Preprint</h2>
+          <h2 class="title is-6 publlication-title">Under Review at ICRA 2024</h2>
           <div class="is-size-6 publication-authors">
             <span class="author-block">
               <a href="https://vikr-182.github.io/">Vikrant Dewangan</a><sup>1*</sup>,</span>
@@ -184,9 +184,12 @@
       </div>
     </div>
     <div  class="container is-max-desktop">
-      <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
+      <!-- <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
         <source src="./static/videos/teaser_presentation_compressed.mp4" type="video/mp4">
-      </video>
+      </video> -->
+      <div id="teaserContainer">
+        <!-- Video will be embedded here -->
+      </div>      
       <div class="is-size-7">
         We build <i>Language-enhanced Bird's-Eye View (BEV) maps</i> using (a) BEV representations constructed from vehicle sensors (multi-view images, lidar), and (b) Aligned vision-language features for each object which can be directly used as context within large vision-language models (LVLMs) to query and <i>talk</i> to the objects in the scene. These maps embed knowledge about object semantics, material properties, affordances, and spatial concepts and can be queried for visual reasoning, spatial understanding, and making decisions about potential future scenarios, critical for autonomous driving application.
       </h2>
@@ -199,9 +202,8 @@
     <div class="container is-max-desktop">
       <div id="results-carousel" class="">
         <div class="item">
-          <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
-            <source src="./static/videos/overtaking.mp4" type="video/mp4">
-          </video>
+          <div id="carouselContainer">
+          </div>
         </div>      
       <!-- <div class="carousel results-carousel">
         <div class="item item-steve">
@@ -346,9 +348,8 @@
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
           </p> -->
-          <video id="teaser" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/spatial_1.mp4" type="video/mp4">
-          </video>
+          <div id="spatial1Container">
+          </div>
           <!-- <img src="./static/images/spatial1.png" class="interpolation-image" alt="Interpolate start reference image."/> -->
         </div>
       </div>
@@ -364,9 +365,8 @@
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
             </p> -->
-            <video id="teaser" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/spatial_2.mp4" type="video/mp4">
-            </video>            
+            <div id="spatial2Container">
+            </div>
             <!-- <img src="./static/images/spatial2.png" class="interpolation-image" alt="Interpolate start reference image."/> -->
           </div>
 
@@ -416,10 +416,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/videos/methodology.mp4">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/Vikr-182" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -433,7 +433,7 @@
           </p>
           <p>
             This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+              href="https://github.com/llmbev/talk2bev">source code</a> of this website,
             we just ask that you link back to this page in the footer.
             Please remember to remove the analytics code included in the header of the website which
             you do not want on your website.
@@ -445,4 +445,70 @@
 </footer>
 
 </body>
+<script>
+  function isVideoEmbeddable(videoId) {
+    return fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`)
+        .then(response => {
+          console.log(response.status)
+            if(response.status === 200) {
+                return true;
+            }
+            return false;
+        })
+        .catch(() => false);
+  }
+  const videoId = 'dQw4w9WgXcQ'; // Rick roll
+  isVideoEmbeddable(videoId).then(embeddable => {
+      if (embeddable) {
+          document.getElementById('teaserContainer').innerHTML = `
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/3MrA6DiDXCA?vq=hd720&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          `;
+
+          document.getElementById('spatial1Container').innerHTML = `
+            <div class="spatial-video">
+              <iframe src="https://www.youtube.com/embed/zoBs8JTd5kw?vq=hd720&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          `
+
+          document.getElementById('spatial2Container').innerHTML = `
+            <div class="spatial-video">
+              <iframe src="https://www.youtube.com/embed/wsMWgMiv1BQ?vq=hd720&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          `
+
+          document.getElementById('carouselContainer').innerHTML = `
+            <div class="carousel-video">
+              <iframe src="https://www.youtube.com/embed/syRbYBmq5kY?vq=hd720&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          `
+      } else {
+          // Assuming you have an alternative video link for the <video> tag
+          document.getElementById('teaserContainer').innerHTML = `
+          <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
+            <source src="./static/videos/teaser_presentation_compressed.mp4" type="video/mp4">
+          </video>
+          `;
+
+          document.getElementById('spatial1Container').innerHTML = `
+          <video id="teaser" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/spatial_1_cropped.mp4" type="video/mp4">
+          </video>
+          `
+
+          document.getElementById('spatial2Container').innerHTML = `
+          <video id="teaser" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/spatial_2_cropped.mp4" type="video/mp4">
+          </video>
+          `
+
+          document.getElementById('carouselContainer').innerHTML = `
+          <video poster="" id="laundry-bag" autoplay controls muted loop playsinline height="100%" width="100%">
+            <source src="./static/videos/overtaking.mp4" type="video/mp4">
+          </video>
+          `
+      }
+  });
+</script>
 </html>
