@@ -2,8 +2,6 @@
 *.pth
 *.ckpt
 *.npy
-*.png
-*.jpg
 *.swp
 __pycache__
 __pycache__/*
