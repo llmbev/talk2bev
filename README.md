@@ -1,16 +1,73 @@
 # Talk2BEV
+Code for:
 
-This is the repository that contains source code for [Talk2BEV](https://llmbev.github.io/talk2bev).
+1. Click2Chat interface
 
-If you find Talk2BEV useful for your work please cite:
+2. JSON generation
+
+## Installation
+Please run the following commands
+### Setup Talk2BEV
+
 ```
-@article{talk2bev
-    title = {Talk2BEV: Language-enhanced Bird’s-eye View Maps for Autonomous Driving},
-    author = {Dewangan, Vikrant and Choudhary, Tushar and Chandhok, Shivam and Priyadarshan, Shubham and Jain,Anushka and Singh, Arun and Srivastava, Siddharth and Jatavallabhula, {Krishna Murthy} and Krishna, Madhava},
-    year = {2023},
-    booktitle = {arXiv},
-}
+git clone https://github.com/llm-bev/talk2bev
 ```
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+### Setup LLava
+
+```
+git clone https://github.com/haotian-liu/LLaVA parent-folder
+mv parent-folder/llava ./
+rm -rf parent-folder
+```
+
+### Setup LLava
+First, you need to clone the repo - 
+
+```
+git clone https://github.com/haotian-liu/LLaVA parent-folder
+mv parent-folder/llava ./
+rm -rf parent-folder
+```
+Please download the preprocessed weights for [vicuna-13b](https://huggingface.co/liuhaotian/llava-v1-0719-336px-lora-vicuna-13b-v1.3)
+
+### Setup MiniGPT-4 (optional)
+```
+git clone https://github.com/Vision-CAIR/MiniGPT-4 parent-folder
+mv parent-folder/minigpt4 ./
+rm -rf parent-folder
+```
+Please download the preprocessed weights for Vicuna. After downloading the weights, you change the following line in `minigpt4/configs/models/minigpt4.yaml`.
+```
+16: llama_model: "path-to-llama-preprocessed-weights"
+```
+Please download the minigpt4 weights [here](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view) and change the link in `eval_configs/minigpt4_eval.yaml`:
+```
+11: ckpt: 'path-to-prerained_minigpt4_7b-weights'
+```
+
+### Setup FastSAM
+
+```
+git clone https://github.com/CASIA-IVA-Lab/FastSAM parent-folder
+mv parent-folder/FastSAM/fastsam ./
+rm -rf parent-folder
+```
+Download the weights from [here](https://drive.google.com/file/d/1m1sjY4ihXBU1fZXdQ-Xdj-mDltW-2Rqv/view)
+
+### Install SAM (optional)
+```
+pip3 install segment-anything
+```
+Download the sam weights from [here](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+
+## Usage (for Click2Chat Interface)
+If using LLaVa
+```
+python click2chat_llava.py --sam-checkpoint <path-to-sam-checkpoint> --conv-mode <conversion mode, default is llava v1> --model-path <path-llava-model> --gpu-id <gpu num>
+```
+
+If using MiniGPT-4
+```
+python click2chat_minigpt4.py --sam-checkpoint <path-to-sam-checkpoint> --conv-mode <conversion mode, default is llava v1> --model-path <path-llava-model> --gpu-id <gpu num>
+```

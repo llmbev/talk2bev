@@ -1,0 +1,13 @@
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.png
+*.jpg
+*.swp
+__pycache__
+__pycache__/*
+nuscenes/
+FastSAM/
+fastsam/__pycache__/
+llava/
