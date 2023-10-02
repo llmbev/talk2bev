@@ -11,10 +11,12 @@
 [Anushka Jain](https://anushkaj1.github.io) <sup>**1**</sup>,
 [Arun K. Singh](https://scholar.google.co.in/citations?user=0zgDoIEAAAAJ&hl=en) <sup>**3**</sup>,
 [Siddharth Srivastava](https://siddharthsrivastava.github.io/) <sup>**4**</sup>,
-[Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\* <sup>**5**</sup>,
-[K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) <sup>**1**</sup>,
+[Krishna Murthy Jatavallabhula](https://krrish94.github.io/) $^\dagger$ <sup>**5**</sup>,
+[K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) $^\dagger$ <sup>**1**</sup>
 
-*denotes equal contribution, 
+*denotes equal contribution,
+$^\dagger$ denotes equal advising
+
 <sup>**1**</sup> International Institute of Information Technology Hyderabad,
 <sup>**2**</sup> University of British Columbia,
 <sup>**3**</sup> University of Tartu
