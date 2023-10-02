@@ -58,6 +58,7 @@ TO BE RELEASED
 To obtain the accuracy for a MCQs, please run the following command:
 
 ```bash
+cd evaluation
 python eval_mcq.py
 ```
 
