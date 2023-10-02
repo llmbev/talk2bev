@@ -2,7 +2,7 @@
 
 [**Project Page**](https://llmbev.github.io/talk2bev/) |
 [**ArXiv**]() |
-[**Video**](https://www.youtube.com/watch?v=TMht-8SGJ0I)
+[**Video**](https://www.youtube.com/watch?v=TvMeekCAfRs)
 
 [Vikrant Dewangan](https://vikr-182.github.io/)\* <sup>**1**</sup>,
 [Tushar Choudhary](https://tusharc31.github.io/)\* <sup>**1**</sup>,
@@ -14,14 +14,14 @@
 [Krishna Murthy Jatavallabhula](https://krrish94.github.io/) $^\dagger$ <sup>**5**</sup>,
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) $^\dagger$ <sup>**1**</sup>
 
-*denotes equal contribution,
-$^\dagger$ denotes equal advising
-
 <sup>**1**</sup> International Institute of Information Technology Hyderabad,
 <sup>**2**</sup> University of British Columbia,
 <sup>**3**</sup> University of Tartu
 <sup>**4**</sup> TensorTour Inc
 <sup>**5**</sup> MIT-CSAIL
+
+> *denotes equal contribution,
+$^\dagger$ denotes equal advising
 
 **Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
 
