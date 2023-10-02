@@ -15,7 +15,7 @@
 [Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\*,
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en),
 
-![Splash Figure](./docs/static/images/talk2bev_teaser-1.png)
+
 
 ## Abstract
 
@@ -49,10 +49,6 @@ ORGANIZATION=<your-organization>
 API_KEY=<your-api-key>
 ```
 
-### Talk2BEV-Bench
-
-TO BE RELEASED
-
 ### Evaluating - MCQs
 
 To obtain the accuracy for a MCQs, please run the following command:
@@ -72,10 +68,14 @@ TO BE RELEASED
 
 We also allow free-form conversation with the BEV. Please follow the instructions in [Click2Chat](./click2chat/README.md) to chat with the BEV.
 
+### Talk2BEV-Bench
+
+TO BE RELEASED
+
 ## TODO
 
 ```
-[ ] Add links to BEV crops, captions
+[ ] Add links to BEV crops
 [ ] Spatial operators evaluation pipeline
 [ ] Release Talk2BEV-Bench
 ```
