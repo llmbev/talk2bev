@@ -1,7 +1,5 @@
 # Talk2BEV: Language-Enhanced Bird's Eye View Maps
 
-**Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
-
 [**Project Page**](https://llmbev.github.io/talk2bev/) |
 [**ArXiv**]() |
 [**Video**](https://www.youtube.com/watch?v=TMht-8SGJ0I)
@@ -17,11 +15,13 @@
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) <sup>**1**</sup>,
 
 *denotes equal contribution, 
-<sup>**1**</sup> International Institute of Information Technology Hyderabad, 
+<sup>**1**</sup> International Institute of Information Technology Hyderabad,
 <sup>**2**</sup> University of British Columbia,
 <sup>**3**</sup> University of Tartu
 <sup>**4**</sup> TensorTour Inc
 <sup>**5**</sup> MIT-CSAIL
+
+**Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
 
 https://github.com/llmbev/talk2bev/assets/44745884/ce8ee30d-b0f7-43e6-aa77-ac3b32e0f7fc
 
