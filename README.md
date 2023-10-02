@@ -23,7 +23,7 @@
 > *denotes equal contribution,
 $^\dagger$ denotes equal advising
 
-**Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
+> **Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
 
 https://github.com/llmbev/talk2bev/assets/44745884/ce8ee30d-b0f7-43e6-aa77-ac3b32e0f7fc
 
