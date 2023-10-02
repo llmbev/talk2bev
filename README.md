@@ -31,12 +31,12 @@ Please download the [NuScenes v1.0-trainval](https://www.nuscenes.org/download) 
 
 ### Download links
 
-Links to the Talk2BEV dataset (_Talk2BEV-Base_ and _Talk2BEV-Captions_) are provided below. The dataset is hosted on Google Drive. Please download the dataset and extract the files to the `data` folder.
+We provide 2 Links to the Talk2BEV dataset (_Talk2BEV-Mini_ (captions only) and _Talk2BEV-Full_) are provided below. The dataset is hosted on Google Drive. Please download the dataset and extract the files to the `data` folder.
 
 | Data Parts | Link |
 | --- | --- |
-| Talk2BEV-Base | [link]() |
-| Talk2BEV-Captions | [link]() |
+| Talk2BEV-Mini | [link](https://drive.google.com/file/d/1B5Uong8xYGRDkufR33T9sCNyNdRzPxc4/view?usp=sharing) |
+| Talk2BEV-Full | [link]() |
 
 If you want to generate the dataset from scratch, please follow the process [here](./data/scratch.md). The format for each of the data parts is described in [format](./data/format.md).
 

@@ -1,9 +1,9 @@
 # Talk2BEV-Base Format
 
-`Talk2BEV-Base` consists 3 parts: `crops`, `cam_imgs`, and `scene`. The folder structure should look like this:
+`Talk2BEV` consists 3 parts: `crops`, `cam_imgs`, and `scene`. The folder structure should look like this:
 
 ```bash
-- Talk2BEV-Base/
+- Talk2BEV/
     - TOKEN_NUM
         - cam_imgs/
             - 1_cimg.npy: perspective 1
@@ -14,8 +14,12 @@
             - 2_matched_imgs.npy: object 2 crop
             - ...
         - scene/
-            - answer_gt.json: ground truth scene object
-            - answer_pred.json: predicted scene object
+            - answer_blip2_gt.json: ground truth scene object with captions using blip2
+            - answer_blip2_pred.json: predicted truth scene object with captions using blip2
+            - answer_minigpt4_gt.json: ground truth scene object with captions using minigpt4
+            - answer_minigpt4_pred.json: predicted scene object with captions using minigpt4
+            - answer_instructblip2_gt.json: ground truth scene object with captions using instructblip2
+            - answer_instructblip2_gt.json: predicted truth scene object with captions using instructblip2
         - bev_gt.png: ground truth bev
         - bev_pred.png: predicted bev
 ```
@@ -36,6 +40,8 @@ This is how a scene is encoded within an object:
         "matched_cam": "CAM_FRONT" # matched camera for this object
         "matched_point": [800, 900], # matched point in the matched camera
         "annotation": {...}, # nuscenes annotation for this object - containing token ID, category etc.
+        "MODEL_crop_lights_1": "th
+        "MODEL_crop_lights_1": "thi",
     },
     ...
 ]
