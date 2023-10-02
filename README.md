@@ -1,21 +1,27 @@
-# Talk2BEV
+# Talk2BEV: Language-Enhanced Bird's Eye View Maps
+
+**Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
 
 [**Project Page**](https://llmbev.github.io/talk2bev/) |
-[**Paper**](https://llmbev.github.io/talk2bev/assets/pdf/talk2bev.pdf) |
 [**ArXiv**]() |
 [**Video**](https://www.youtube.com/watch?v=TMht-8SGJ0I)
 
-*Under Review at* [ICRA 2024](https://2024.ieee-icra.org/)
+[Vikrant Dewangan](https://vikr-182.github.io/)\* <sup>**1**</sup>,
+[Tushar Choudhary](https://tusharc31.github.io/)\* <sup>**1**</sup>,
+[Shivam Chandhok](https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en)\* <sup>**2**</sup>,
+[Shubham Priyadarshan](https://rudeninja.github.io/) <sup>**1**</sup>,
+[Anushka Jain](https://anushkaj1.github.io) <sup>**1**</sup>,
+[Arun K. Singh](https://scholar.google.co.in/citations?user=0zgDoIEAAAAJ&hl=en) <sup>**3**</sup>,
+[Siddharth Srivastava](https://siddharthsrivastava.github.io/) <sup>**4**</sup>,
+[Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\* <sup>**5**</sup>,
+[K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) <sup>**1**</sup>,
 
-[Vikrant Dewangan](https://vikr-182.github.io/)\*,
-[Tushar Choudhary](https://tusharc31.github.io/)\*,
-[Shivam Chandhok](https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en)\*,
-[Shubham Priyadarshan](https://rudeninja.github.io/),
-[Anushka Jain](https://anushkaj1.github.io),
-[Arun K. Singh](https://scholar.google.co.in/citations?user=0zgDoIEAAAAJ&hl=en),
-[Siddharth Srivastava](https://siddharthsrivastava.github.io/),
-[Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\*,
-[K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en),
+*denotes equal contribution, 
+<sup>**1**</sup> International Institute of Information Technology Hyderabad, 
+<sup>**2**</sup> University of British Columbia,
+<sup>**3**</sup> University of Tartu
+<sup>**4**</sup> TensorTour Inc
+<sup>**5**</sup> MIT-CSAIL
 
 https://github.com/llmbev/talk2bev/assets/44745884/ce8ee30d-b0f7-43e6-aa77-ac3b32e0f7fc
 
