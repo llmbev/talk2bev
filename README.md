@@ -5,6 +5,8 @@
 [**ArXiv**]() |
 [**Video**](https://www.youtube.com/watch?v=TMht-8SGJ0I)
 
+*Under Review at* [ICRA 2024](https://2024.ieee-icra.org/)
+
 [Vikrant Dewangan](https://vikr-182.github.io/)\*,
 [Tushar Choudhary](https://tusharc31.github.io/)\*,
 [Shivam Chandhok](https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en)\*,
