@@ -64,7 +64,12 @@ This will yield the accuracy for the MCQs.
 
 ### Evaluating Spatial Operators
 
-TO BE RELEASED
+To obtain the distance error, IoU for a MCQs, please run the following command:
+
+```bash
+cd evaluation
+python eval_spops.py
+```
 
 ## Click2Chat
 
@@ -74,10 +79,8 @@ We also allow free-form conversation with the BEV. Please follow the instruction
 
 TO BE RELEASED
 
-## TODO
+## 👉 TODO 
 
-```
-[ ] Add links to BEV crops
-[ ] Spatial operators evaluation pipeline
-[ ] Release Talk2BEV-Bench
-```
+- [x] Spatial operators evaluation pipeline
+- [ ] Add links to BEV crops -- Release Talk2BEV-Full
+- [ ] Release Talk2BEV-Bench
