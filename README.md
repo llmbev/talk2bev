@@ -15,7 +15,7 @@
 [Krishna Murthy Jatavallabhula](https://krrish94.github.io/)\*,
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en),
 
-
+https://github.com/llmbev/talk2bev/assets/44745884/ce8ee30d-b0f7-43e6-aa77-ac3b32e0f7fc
 
 ## Abstract
 
