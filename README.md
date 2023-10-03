@@ -25,7 +25,8 @@ $^\dagger$ denotes equal advising
 
 > **Under Review at** [ICRA 2024](https://2024.ieee-icra.org/)
 
-https://github.com/llmbev/talk2bev/assets/44745884/ce8ee30d-b0f7-43e6-aa77-ac3b32e0f7fc
+
+https://github.com/llmbev/talk2bev/assets/44745884/251ffffd-2bd7-4838-895a-83939ec5b87f
 
 ## Abstract
 
