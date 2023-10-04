@@ -1,7 +1,7 @@
 # Talk2BEV: Language-Enhanced Bird's Eye View Maps
 
 [**Project Page**](https://llmbev.github.io/talk2bev/) |
-[**ArXiv**]() |
+[**ArXiv**](https://arxiv.org/abs/2310.02251) |
 [**Video**](https://www.youtube.com/watch?v=TvMeekCAfRs)
 
 [Vikrant Dewangan](https://vikr-182.github.io/)\* <sup>**1**</sup>,
@@ -45,8 +45,8 @@ We provide 2 Links to the Talk2BEV dataset (_Talk2BEV-Mini_ (captions only) and 
 
 | Name | Base | Captions | Bench | Link |
 | --- | --- | --- | --- | --- |
-| Talk2BEV-Mini |  &check; | &cross; | &cross; | [link](https://drive.google.com/file/d/1B5Uong8xYGRDkufR33T9sCNyNdRzPxc4/view?usp=sharing) |
-| Talk2BEV-Full | &cross; | &cross; | &cross; | _TODO_ |
+| Talk2BEV-_Mini_ |  &check; | &cross; | &cross; | [link](https://drive.google.com/file/d/1B5Uong8xYGRDkufR33T9sCNyNdRzPxc4/view?usp=sharing) |
+| Talk2BEV-_Full_ | &cross; | &cross; | &cross; | _TODO_ |
 
 If you want to generate the dataset from scratch, please follow the process [here](./data/scratch.md). The format for each of the data parts is described in [format](./data/format.md).
 
