@@ -23,7 +23,7 @@
 > *denotes equal contribution,
 $^\dagger$ denotes equal advising
 
-> **Accepted to** [ICRA 2024](https://2024.ieee-icra.org/)
+> [ICRA 2024](https://2024.ieee-icra.org/)
 
 
 https://github.com/llmbev/talk2bev/assets/44745884/251ffffd-2bd7-4838-895a-83939ec5b87f
